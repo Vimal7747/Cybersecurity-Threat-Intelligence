@@ -1,0 +1,25 @@
+Logistic Regression Classification Report
+==========================================
+Dataset: CIC-IDS2018 (SMOTE balanced: 608,644 per class)
+Train/Test Split: 80/20 stratified
+
+                precision    recall  f1-score   support
+
+             0       1.00      0.97      0.98    152162
+             1       0.91      1.00      0.95     56462
+
+      accuracy                           0.97    208624
+     macro avg       0.96      0.98      0.97    208624
+  weighted avg       0.98      0.97      0.97    208624
+
+Confusion Matrix:
+[[146892   5270]
+ [   202  56260]]
+
+Notes:
+- Perfect recall on Bot traffic (1.00) — no missed malicious flows
+- 5,270 false positives (benign flagged as bot)
+- Slightly fewer false positives than SVM
+- StandardScaler applied before training for equal feature weighting
+- max_iter=1000 used to ensure convergence
+- Stable and interpretable baseline model

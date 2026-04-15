@@ -1,0 +1,24 @@
+SVM (LinearSVC) Classification Report
+=====================================
+Dataset: CIC-IDS2018 (SMOTE balanced: 608,644 per class)
+Train/Test Split: 80/20 stratified
+
+                precision    recall  f1-score   support
+
+             0       1.00      0.95      0.97    152162
+             1       0.88      1.00      0.93     56462
+
+      accuracy                           0.96    208624
+     macro avg       0.94      0.97      0.95    208624
+  weighted avg       0.97      0.96      0.96    208624
+
+Confusion Matrix:
+[[144356   7806]
+ [    41  56421]]
+
+Notes:
+- Perfect recall on Bot traffic (1.00) — no missed attacks
+- 7,806 benign samples incorrectly flagged as malicious (false positives)
+- Linear kernel may not fully capture non-linear feature boundaries
+- For cybersecurity, perfect bot recall is more critical than benign precision
+- dual=False used due to n_samples > n_features
