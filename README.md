@@ -162,7 +162,7 @@ Or open directly in **Google Colab** (recommended for large dataset):
 If you use this project in your work, please cite:
 
 ```
-Veerakumar, V.M. (2025). Leveraging Artificial Intelligence for Predictive 
+Vimalkanth, M.V. (2025). Leveraging Artificial Intelligence for Predictive 
 Cybersecurity Threat Intelligence. M.Sc. Applied Research Project, 
 Dublin Business School.
 ```
