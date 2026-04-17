@@ -1,8 +1,7 @@
 # 🔐 Leveraging Artificial Intelligence for Predictive Cybersecurity Threat Intelligence
 
 > M.Sc. Cybersecurity Applied Research Project — Dublin Business School, 2025  
-> **Author:** Vimalkanth Muthaliyappan Veerakumar | **Student ID:** 20025544  
-> **Supervisor:** Ankush Arya
+> **Author:** Vimalkanth Muthaliyappan Veerakumar
 
 ---
 
